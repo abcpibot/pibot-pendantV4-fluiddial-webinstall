@@ -2,14 +2,14 @@
   "projects": [
     {
       "id": "btpendantfluidnc1000000",
-      "name": "Pibot CNC pendant V4.0 (FluidNC)",
+      "name": "PiBot CNC pendant V4.0 (FluidNC)",
       "enabled": true,
       "description": {
-        "en": "Control your FluidNC CNC using bluetooth or serial connection. Professional wireless pendant with jog control, feed rate override, and real-time status display."
+        "en": "Control your FluidNC CNC using WIFI or serial connection. Professional wireless pendant with jog control, feed rate override, and real-time status display."
       },
-      "version": "1.0.0",
+      "version": "1.4.2",
       "firmware": [
-        { "path": "fluidnc/fluiddial1000000.bin", "offset": "0x0" }
+        { "path": "fluidnc/pibot_1m_merged142.bin", "offset": "0x0" }
       ],
       "image": "images/pibot_cnc_pendant_4.0.png",
       "icon": "images/fluidnc.svg",
@@ -21,14 +21,14 @@
     },
     {
       "id": "btpendantfluidnc115200",
-      "name": "Pibot CNC pendant V4.0 (FluidNC)",
+      "name": "PiBot CNC pendant V4.0 (FluidNC)",
       "enabled": true,
       "description": {
-        "en": "Control your FluidNC CNC using bluetooth or serial connection. Professional wireless pendant with jog control, feed rate override, and real-time status display."
+        "en": "Control your FluidNC CNC using WIFI or serial connection. Professional wireless pendant with jog control, feed rate override, and real-time status display."
       },
-      "version": "1.0.0",
+      "version": "1.4.2",
       "firmware": [
-        { "path": "fluidnc/fluiddial115200.bin", "offset": "0x0" }
+        { "path": "fluidnc/pibot_115200_merged142", "offset": "0x0" }
       ],
       "image": "images/pibot_cnc_pendant_4.0.png",
       "icon": "images/fluidnc.svg",
@@ -38,6 +38,5 @@
         "en": "Baudrate: 115200"
       }
     }
-    
   ]
 }
