@@ -1,6 +1,25 @@
 {
   "projects": [
     {
+      "id": "btpendantfluidnc1000000-150",
+      "name": "PiBot CNC pendant V4.0 (FluidNC)",
+      "enabled": true,
+      "description": {
+        "en": "Control your FluidNC CNC using WIFI or serial connection. Based on FluidDial 1.5.0 with the dynamic 1-6 axis DRO, improved multi-axis jogging, and real-time status display."
+      },
+      "version": "1.5.0",
+      "firmware": [
+        { "path": "fluidnc/pibot_v1.5.0-pibot_1m_merged.bin", "offset": "0x0" }
+      ],
+      "image": "images/pibot_cnc_pendant_4.0.png",
+      "icon": "images/fluidnc.svg",
+      "url": "https://www.pibot.com/pibot-cnc-pendant-v4",
+      "documentation": "https://wiki.pibot.com/doku.php?id=pibot_cnc_laser_series:cnc_pendant_v4:start",
+      "badge": {
+        "en": "Latest · Baudrate: 1000000"
+      }
+    },
+    {
       "id": "btpendantfluidnc1000000",
       "name": "PiBot CNC pendant V4.0 (FluidNC)",
       "enabled": true,
@@ -24,7 +43,7 @@
       "name": "PiBot CNC pendant V4.0 (FluidNC)",
       "enabled": true,
       "description": {
-        "en": "Control your FluidNC CNC using WIFI or serial connection. Professional wireless pendant with jog control, feed rate override, and real-time status display."
+        "en": "Control your FluidNC CNC using WIFI or serial connection. Legacy 115200 baud build, kept for existing setups. New releases are 1000000 baud only."
       },
       "version": "1.4.2",
       "firmware": [
@@ -35,7 +54,7 @@
       "url": "https://www.pibot.com/pibot-cnc-pendant-v4",
       "documentation": "https://wiki.pibot.com/doku.php?id=pibot_cnc_laser_series:cnc_pendant_v4:start",
       "badge": {
-        "en": "Baudrate: 115200"
+        "en": "Baudrate: 115200 · Legacy"
       }
     }
   ]
